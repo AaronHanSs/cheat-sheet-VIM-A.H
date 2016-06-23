@@ -1,5 +1,11 @@
+body {
+  background-color: #BB8F74;
+}
 p {
   text-align: center;
+  background-color: #896F62;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 .grid-lg-1-3 {
   width: 33.3333%;
@@ -13,4 +19,8 @@ float: right;
 }
 .grid-lg-1-2 {
   float: left;
+}
+.color
+{
+  background-color: #4C4E4F;
 }
