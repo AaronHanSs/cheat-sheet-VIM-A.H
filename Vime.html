@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link type="text/css" rel="stylesheet" href="Style.css"/>
-      <title> Commande Vim </title>
+    <meta charset="utf-8">
+      <link type="text/css" rel="stylesheet" href="Style.css"/>
+        <title> Commande Vim </title>
   </head>
     <body>
       <div class="container">
@@ -13,8 +14,8 @@
             </h1>
           </div>
         </div>
-        <div class="grib-block">
-          <div class="grib-lg-1-3">
+        <div class="grid-block">
+          <div class="grid-lg-1-2">
             <h2> Commande de base  </h2>
               <ul>
                   <li> "i" Passer en mode insertion </li>
@@ -26,6 +27,41 @@
                   <li> ":x" Enregistrer (seulement en cas de modification) et quitter </li>
                   <li> ":set paste" Passer en mode "collage" </li>
               </ul>
-            <h2> C
+            <h2> Commandes d'édition </h2>
+              <ul>
+                <li> "u" Annuler la dernière opération </li>
+                <li> "Ctrl+r" Rétablir la dernière opération annulée</li>
+                <li> "." Répéter la dernière opération d'édition</li>
+                <li> "yy" Copier la ligne (4yy = 4 lignes)</li>
+                <li> "dd" Couper la ligne (4dd = 4 lignes)</li>
+                <li> "p" 	Coller après (P = insérer avant)</li>
+                <li> "x" 	Effacer le caractère</li>
+                <li> "dw" Effacer le texte jusqu'à la fin du mot</li>
+                <li> "diw" Effacer le mot sous le curseur </li>
+              </ul>
+          </div>
+          <div class="grid-lg-1-3">
+            <h2> Recherche / remplacement </h2>
+              <ul>
+                <li> "/" Rechercher du texte </li>
+                <li> "n" Rechercher l'occurence suivante </li>
+                <li> "N" Rechercher l'occurence précédente  </li>
+                <li> "cw" Remplacer le texte jusqu'à la fin du mot </li>
+                <li> "ciw" Remplacer le mot </li>
+                <li> "C" Remplacer jusqu'en fin de ligne </li>
+                <li> "." Répéter la dernière opération d'édition </li>
+                <li> "":%s/A/B/g" Remplacer tous (g) les A par des B </li>
+              </ul>
+            <h2> Fenêtrage </h2>
+              <ul>
+                <li> "Ctrl+w-s" Diviser horizontalement</li>
+                <li> "Ctrl+w-v" Diviser verticalement</li>
+                <li> "Ctrl+w-w" Passer à la fenêtre suivante</li>
+                <li> "Ctrl+w-n" Ouvrir un fichier vierge dans une nouvelle fenêtre</li>
+                <li> ": tabnew nom_fichier" Ouvrir le fichier nom_fichier dans un onglet</li>
+                <li> "Ctrl+w-q" Fermer la fenêtre </li>
+              </ul>
+            </div>
+          </div>
     </body>
 </html>
