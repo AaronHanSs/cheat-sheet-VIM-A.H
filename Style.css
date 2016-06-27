@@ -1,5 +1,16 @@
+@media screen and (max-width: 1024px)
+ {
+  font-size: 1em
+    {
+    width: auto;
+    height: auto;
+    /* responsive */
+  }
+}
+
 body {
   background-color: #BB8F74;
+  /* background color */
 }
 p {
   text-align: center;
